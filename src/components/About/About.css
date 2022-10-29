@@ -1,0 +1,36 @@
+.section-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color2);
+  height: 100vh;
+}
+
+.container-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text */
+
+.container-text p{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--tipografiaS);
+  margin-top: 40px;
+}
+
+/* TagCanvas */
+
+.container-tagcanvas{
+  margin: 0 50px;
+}
+
+.container-tagcanvas canvas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: fit-content;
+}

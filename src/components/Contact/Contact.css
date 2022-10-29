@@ -1,0 +1,9 @@
+.section-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color2);
+  padding: 100px;
+}
+

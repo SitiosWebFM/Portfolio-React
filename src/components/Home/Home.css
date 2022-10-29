@@ -1,0 +1,88 @@
+.section-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 150px 0;
+  background-image: url('./img-home/blob-scene-haikei.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container-home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 100px;
+  margin: 0 100px;
+}
+
+.home-text, .home-img{
+  max-width: 65%;
+}
+
+
+.home-img{
+  position: relative;
+  
+}
+.home-img::after{
+  content:''; 
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  top: -30px;
+  right: -30px;
+}
+.home-img::before{
+  content:''; 
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-bottom: 5px solid #fff;
+  border-left: 5px solid #fff;
+  bottom: -30px;
+  left: -30px;
+}
+
+.home-img .perfil{
+  position: relative;
+  width: 300px;
+  height: auto;
+  border-radius:40%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+
+
+.home-text .title-home{
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: var(--tipografiaT);
+}
+
+.home-text .title-home:hover{
+  color: var(--color5);
+}
+
+
+.home-text .container-p{
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+.home-text p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--tipografiaS);
+  margin: 0;
+}
+
+.home-text h2{
+  margin: 0;
+}
+
