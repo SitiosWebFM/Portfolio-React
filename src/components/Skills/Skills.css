@@ -1,23 +1,4 @@
-.section-skills{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container-skills{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
 /* Container Text */
-.container-text{
-  width: 100%;
-  margin-left: 100px;
-}
-
 .container-p-skills{
   margin-top: 40px;
 }
@@ -34,8 +15,8 @@
 
 /* Container Skills */
 .container-data{
-  width: 100%;
-  margin:0 100px 0 100px;
+  width: 50%;
+  margin:0 0px 0 100px;
 }
 
 h5{

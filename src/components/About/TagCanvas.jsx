@@ -10,12 +10,12 @@ class TagCloud extends React.Component {
   renderTagCloud() {
     try {
       tagCanvas.Start("myCanvas", "tags", {
-        textColour: "#08fdd8",
+        textColour: "#4acdce",
         reverse: true,
         depth: 0.1,
-        maxSpeed: 0.07,
+        maxSpeed: 0.05,
         outlineMethod: "none",
-        textHeight: 21,
+        textHeight: 27,
         wheelZoom: false,
       });
     } catch (e) {
@@ -45,52 +45,28 @@ class TagCloud extends React.Component {
         <div id="tags" style={{display: 'none'} }>
           <ul>
             <li>
-              <a href="/">GitHub</a>
+              <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics" rel='noreferrer' target='_blank'>HTML</a>
             </li>
             <li>
-              <a href="/">JavaScript</a>
+              <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" rel='noreferrer' target='_blank'>JavaScript</a>
             </li>
             <li>
-              <a href="/">TypeScript</a>
+              <a href="https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS" rel='noreferrer' target='_blank'>CSS</a>
             </li>
             <li>
-              <a href="/">SCSS</a>
+              <a href="https://es.wikipedia.org/wiki/Sass" rel='noreferrer' target='_blank'>SASS</a>
             </li>
             <li>
-              <a href="/">React</a>
+              <a href="https://developer.mozilla.org/es/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started" rel='noreferrer' target='_blank'>React</a>
             </li>
             <li>
-              <a href="/">CSS</a>
+              <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" rel='noreferrer' target='_blank'>BootsTrap</a>
             </li>
             <li>
-              <a href="/">HTML</a>
+              <a href="https://es.wikipedia.org/wiki/Web_API" rel='noreferrer' target='_blank'>REST</a>
             </li>
             <li>
-              <a href="/">Storybook</a>
-            </li>
-            <li>
-              <a href="/">REST</a>
-            </li>
-            <li>
-              <a href="/">Gulp</a>
-            </li>
-            <li>
-              <a href="/">Unit Tests</a>
-            </li>
-            <li>
-              <a href="/">Material Design</a>
-            </li>
-            <li>
-              <a href="/">Ant Design</a>
-            </li>
-            <li>
-              <a href="/">NodeJS</a>
-            </li>
-            <li>
-              <a href="/">BEM</a>
-            </li>
-            <li>
-              <a href="/">Progressive Web Apps</a>
+              <a href="https://es.wikipedia.org/wiki/Figma" rel='noreferrer' target='_blank'>Figma</a>
             </li>
           </ul>
         </div>

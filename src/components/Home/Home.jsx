@@ -11,8 +11,8 @@ const Home = () => {
   const {animationClass} = useContext(Animate)
 
   return (
-    <section className='section-home'>
-      <div className='container-home'>
+    <section className='section-page bg-gradient-1'>
+      <div className='container-page max-width' style={{marginTop: '150px'}}>
         <div className='home-text'>
         <h2>
           <span className='title-home animate__animated' onMouseOver={animationClass} data-aos="fade-left" data-aos-duration="500" data-aos-once="true">H</span>

@@ -53,9 +53,8 @@ const Projects = () => {
 
 
   return (
-    <section className='section-projects'>
-      <div className='container-projects'>
-        <h2 className='container-title margin-title' data-aos="fade-left" data-aos-duration="1000">
+    <section className='section-page bg-gradient-1'>
+        <h2 className='container-title' data-aos="zoom-out-down" data-aos-duration="1000">
           <span className='title animate__animated' onMouseOver={animationClass}>P</span>
           <span className='title animate__animated' onMouseOver={animationClass}>r</span>
           <span className='title animate__animated' onMouseOver={animationClass}>o</span>
@@ -65,6 +64,7 @@ const Projects = () => {
           <span className='title animate__animated' onMouseOver={animationClass}>t</span>
           <span className='title animate__animated' onMouseOver={animationClass}>s</span>
         </h2>
+      <div className='container-page'>
         <div className='cards'>
           {
             dataProjects.map(project =>{

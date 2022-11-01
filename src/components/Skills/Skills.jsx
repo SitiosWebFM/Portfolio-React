@@ -27,10 +27,8 @@ const Skills = () => {
   },[stylesProgress])
   
   return (
-    <section className='section-skills'>
-      <div className='container-skills'>
-        <div className='container-text'>
-        <h2 className='container-title' data-aos="fade-left" data-aos-duration="1000">
+    <section className='section-page bg-gradient-2'>
+      <h2 className='container-title' data-aos="zoom-out-down" data-aos-duration="1000">
           <span className='title animate__animated' onMouseOver={animationClass}>S</span>
           <span className='title animate__animated' onMouseOver={animationClass}>k</span>
           <span className='title animate__animated' onMouseOver={animationClass}>i</span>
@@ -50,17 +48,15 @@ const Skills = () => {
           <span className='title animate__animated' onMouseOver={animationClass}>n</span>
           <span className='title animate__animated' onMouseOver={animationClass}>c</span>
           <span className='title animate__animated' onMouseOver={animationClass}>e</span>
-        </h2>
+      </h2>
+      <div className='container-page max-width'>
+        <div className='container-text'>
           <div className='container-p-skills'>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum vero temporibus repellat esse! Consequuntur, exercitationem placeat vero ad nulla quos neque vitae maxime error labore aspernatur necessitatibus dolores. Tenetur, sit!
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam expedita distinctio dolores magni nihil qui assumenda iusto consequatur ipsa? Dolor officiis laboriosam quia blanditiis? Culpa error dicta minus molestiae. Quasi?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eaque consequatur. Asperiores consectetur in, illo pariatur officia eveniet eaque exercitationem vel labore veniam voluptas, et voluptatum quaerat, qui nulla a?
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae explicabo cum consectetur nihil itaque dolores dolor eius, magni culpa repellat, accusantium rerum iure quo saepe facilis, placeat nulla commodi exercitationem.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum vero temporibus repellat esse! Consequuntur, exercitationem placeat vero ad nulla quos neque vitae maxime error labore aspernatur necessitatibus dolores. Tenetur, sit!
             </p>
           </div>
         </div>

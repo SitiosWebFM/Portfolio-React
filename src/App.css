@@ -46,11 +46,11 @@ a{
 /* Titles */
 .container-title{
   display: block;
-  width: fit-content;
   overflow: hidden;
   line-height: unset;
   font-weight: 900;
-  margin: 0;
+  text-align: center;
+  margin: 0 0 30px 0;
 }
 
 .title{
@@ -60,13 +60,51 @@ a{
   color: var(--color5);
 }
 
-.margin-title{
-  margin-left: 100px;
-}
 
 /* Espacio entre letras */
 .space{
   margin: 0 10px;
+}
+
+
+/* Bg gradient */
+
+.bg-gradient-1{
+  background: rgb(20,19,19);
+  background: linear-gradient(180deg, rgba(20,19,19,1) 0%, rgba(19,41,55,1) 100%);
+}
+
+.bg-gradient-2{
+  background: rgb(19,41,55);
+  background: linear-gradient(180deg, rgba(19,41,55,1) 0%, rgba(20,19,19,1) 100%);
+}
+
+
+/* Sections page */
+.section-page{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  padding: 200px 0 50px 0;
+}
+
+/* Container */
+.container-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.max-width{
+  max-width: 1300px !important;
+  flex-wrap: wrap;
+}
+
+/* Container Text Skills/About */
+.container-text{
+  width: 40%;
 }
 
 
