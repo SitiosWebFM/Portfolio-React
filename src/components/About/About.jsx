@@ -4,13 +4,14 @@ import { Animate } from '../../context/Animate.context'
 import './About.css'
 /* Components */
 import TagCanvas from './TagCanvas'
+import cv from './Curriculum/Curriculum Facundo Marconi.pdf'
 
 const Skills = () => {
   const {animationClass} = useContext(Animate)
 
   
   return (
-    <section className='section-page bg-gradient-2'>
+    <section className='section-page bg-gradient-2' id='about'>
       <h2 className='container-title' data-aos="zoom-out-down" data-aos-duration="1000">
         <span className='title animate__animated' onMouseOver={animationClass}>A</span>
         <span className='title animate__animated' onMouseOver={animationClass}>b</span>
@@ -26,7 +27,7 @@ const Skills = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum vero temporibus repellat esse! Consequuntur, exercitationem placeat vero ad nulla quos neque vitae maxime error labore aspernatur necessitatibus dolores. Tenetur, sit!
           </p>
-          <a href='/'>Download CV</a>
+          <a className='btn-download-cv' href={cv} download={cv}>Download CV<i className="fa-solid fa-file-arrow-down"></i></a>
         </div>
         <div className='container-tagcanvas'>
           <TagCanvas/>

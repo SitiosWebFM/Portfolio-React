@@ -53,7 +53,7 @@ const Projects = () => {
 
 
   return (
-    <section className='section-page bg-gradient-1'>
+    <section className='section-page bg-gradient-1' id='projects'>
         <h2 className='container-title' data-aos="zoom-out-down" data-aos-duration="1000">
           <span className='title animate__animated' onMouseOver={animationClass}>P</span>
           <span className='title animate__animated' onMouseOver={animationClass}>r</span>

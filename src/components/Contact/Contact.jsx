@@ -10,6 +10,8 @@ import Row from 'react-bootstrap/Row';
 import { Animate } from '../../context/Animate.context';
 /* EmialJS */
 import emailjs from '@emailjs/browser'
+/* SweetAlert */
+import Swal from 'sweetalert2'
 
 function Contact() {
   const [validated, setValidated] = useState(false);
@@ -23,14 +25,48 @@ function Contact() {
     }else{
       event.preventDefault();
       emailjs.sendForm('service_89682f6', 'template_x3w4prb', event.target,'aWuugn8Sdo6JI8_wo')
-        .then(res => console.log(res))
+        .then(res => {
+          const Toast = Swal.mixin({
+            toast: true,
+            position: 'center',
+            showConfirmButton: false,
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer)
+              toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'success',
+            title: 'Se envío correctamente!'
+          })
+        }).catch(err => {
+          const Toast = Swal.mixin({
+            toast: true,
+            position: 'center',
+            showConfirmButton: false,
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer)
+              toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'error',
+            title: 'Hubo un problema, vuelve a intentarlo!'
+          })
+        })
     }
 
     setValidated(true);
   };
 
   return (
-  <section className='section-page bg-gradient-1'>
+  <section className='section-page bg-gradient-1' id='contact'>
      <h2 className='container-title' data-aos="zoom-out-down" data-aos-duration="1000">
           <span className='title animate__animated' onMouseOver={animationClass}>C</span>
           <span className='title animate__animated' onMouseOver={animationClass}>o</span>
@@ -106,7 +142,7 @@ function Contact() {
               </div>
             </Form.Group>
           </Row>
-          <Button type="submit">Enviar</Button>
+          <Button type="submit">Enviar<i className="fa-regular fa-paper-plane"></i></Button>
         </Form>
       </div>
     </section>

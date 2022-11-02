@@ -27,7 +27,7 @@ const Skills = () => {
   },[stylesProgress])
   
   return (
-    <section className='section-page bg-gradient-2'>
+    <section className='section-page bg-gradient-2' id='skills'>
       <h2 className='container-title' data-aos="zoom-out-down" data-aos-duration="1000">
           <span className='title animate__animated' onMouseOver={animationClass}>S</span>
           <span className='title animate__animated' onMouseOver={animationClass}>k</span>

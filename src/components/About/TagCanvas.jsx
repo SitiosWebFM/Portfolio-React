@@ -16,7 +16,7 @@ class TagCloud extends React.Component {
         maxSpeed: 0.05,
         outlineMethod: "none",
         textHeight: 27,
-        wheelZoom: false,
+        wheelZoom: false
       });
     } catch (e) {
       // something went wrong, hide the canvas container
@@ -42,7 +42,7 @@ class TagCloud extends React.Component {
             </p>
           </canvas>
         </div>
-        <div id="tags" style={{display: 'none'} }>
+        <div id="tags" style={{display: 'none'}}>
           <ul>
             <li>
               <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics" rel='noreferrer' target='_blank'>HTML</a>

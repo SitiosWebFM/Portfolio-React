@@ -11,7 +11,7 @@ const Home = () => {
   const {animationClass} = useContext(Animate)
 
   return (
-    <section className='section-page bg-gradient-1'>
+    <section className='section-page bg-gradient-1' id='home'>
       <div className='container-page max-width' style={{marginTop: '150px'}}>
         <div className='home-text'>
         <h2>

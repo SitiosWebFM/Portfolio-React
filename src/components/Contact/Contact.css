@@ -90,15 +90,22 @@
 .form-contact .btn{
   width: 150px;
   height: auto;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: var(--tipografiaS);
-  background-color: transparent;
-  border: 2px solid var(--color3);
-  margin-top: 20px;
+  font-family: var(--tipografiaP);
+  color: #fff;
+  background-color: var(--color2);
+  border: 2px solid var(--color5);
+  text-decoration: none;
+  padding: 10px;
+  margin: 30px 0;
+  cursor: pointer;
+  transition: background-color .3s ease,border .3s ease;
 }
 
 .form-contact .btn:hover{
-  background-color: var(--color4);
+  background-color: transparent;
   border: 2px solid var(--color5);
+}
+
+.form-contact .btn i{
+  margin-left: 10px;
 }

@@ -63,16 +63,22 @@
   color: var(--color1) !important;
 }
 
-.navbar-scroll .container-navbar .nav-list li a:hover{
- color: #fff;
-}
-
-
 .container-navbar .nav-list li{
-  transition: transform .3s ease;
+  transition: transform .3s ease,background-color .3s ease,border-radius .3s ease;
 }
 .container-navbar .nav-list li:hover{
-  transform: scale(1.02);
+  transform: translateY(-3px);
+}
+
+
+.active{
+  background-color:var(--color2);
+  border-radius: 10px;
+}
+
+.navbar-scroll .active{
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 
@@ -89,7 +95,7 @@
   cursor: pointer;
   overflow: hidden;
   z-index: 1;
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 
 .container-social .social-icon i{
@@ -100,6 +106,10 @@
 .container-social .social-icon:hover i{
   color: #fff;
 }
+.container-social .social-icon:hover{
+  border: 1px solid #000;
+}
+
 .navbar-scroll .container-social .social-icon i {
   color: #fff;
 }
@@ -131,31 +141,34 @@
 
 
 
-.container-social button{
+.container-social .btn-redirect-contact{
   position: relative;
   font-size: 20px;
   font-weight: 900;
   font-family: var(--tipografiaT);
-  color: var(--color3);
+  color: var(--color3) !important;
   background-color: var(--color1);
   margin-left: 30px;
   padding: 10PX;
   overflow: hidden;
+  border: 1px solid #fff;
+  text-decoration: none;
   z-index: 1;
   cursor: pointer;
   transition: color .3s ease;
 }
 
-.navbar-scroll .container-social button {
-  color: #fff;
+.navbar-scroll .container-social .btn-redirect-contact {
+  color: #fff !important;
 }
 
 
-.container-social button:hover {
-  color: #fff;
+.container-social .btn-redirect-contact:hover {
+  color: #fff !important;
+  border: 1px solid #000;
 }
 
-.container-social button::after {
+.container-social .btn-redirect-contact::after {
   content: "";
   background: var(--color3); 
   position: absolute;
@@ -170,11 +183,11 @@
   transition: all 0.3s ease;
 }
 
-.navbar-scroll .container-social button::after {
+.navbar-scroll .container-social .btn-redirect-contact::after {
   background: var(--color5); 
 }
 
-.container-social button:hover::after {
+.container-social .btn-redirect-contact:hover::after {
   transition: all 0.3s ease-out;
   transform: skewX(-45deg) scale(1, 1);
 }
