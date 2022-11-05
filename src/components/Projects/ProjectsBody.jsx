@@ -11,7 +11,7 @@ const ProjectsBody = ({project}) => {
         <img className='card-img' src={logo} alt={`Projeccityt-${name}`}/>
         </div>
         <div className='card-data-text'>
-        <ModalBootstrap name={name}/>
+        <ModalBootstrap data={project}/>
       </div>
     </div>
   )

@@ -60,3 +60,18 @@ h5{
   width: 95%;
   background-color: #DF5823;
 }
+
+/* Querys */
+
+@media(max-width:1300px){
+  .container-data{
+    margin:0 0 0 50px;
+  }
+}
+
+@media(max-width:1090px){
+  .container-data{
+    width: 100%;
+    margin:50px 0 0 0 ;
+  }
+}

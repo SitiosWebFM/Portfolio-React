@@ -8,7 +8,7 @@
 
 .container-text .btn-download-cv{
   display: block;
-  width: fit-content;
+  width:200px ;
   font-family: var(--tipografiaP);
   color: #fff;
   background-color: var(--color2);
@@ -16,6 +16,7 @@
   text-decoration: none;
   padding: 10px;
   margin: 30px 0;
+  text-align: center;
   cursor: pointer;
   transition: background-color .3s ease,color .3s ease;
 }
@@ -34,7 +35,7 @@
 
 .container-tagcanvas{
   width: 50%;
-  margin: 0 50px;
+  margin-left: 100px;
 }
 
 .container-tagcanvas canvas{
@@ -44,3 +45,64 @@
   width: 100%;
   height: fit-content;
 }
+
+
+/* Querys */
+
+@media(max-width:1300px){
+  .container-tagcanvas{
+    margin-left: 0;
+  }
+}
+
+@media(max-width:1090px){
+  .container-tagcanvas{
+    width: 60%;
+  }
+
+  .container-text .btn-download-cv{
+    width: auto;
+    margin: 50px 250px;
+  }
+}
+
+
+@media(max-width:860px){
+  .container-text .btn-download-cv{
+    margin: 50px 200px;
+  }
+
+  .container-tagcanvas{
+    width: 80%;
+  }
+
+}
+
+
+@media(max-width:660px){
+  .container-text .btn-download-cv{
+    margin: 50px 150px;
+  }
+
+  .container-tagcanvas{
+    width: 100%;
+  }
+}
+
+
+@media(max-width:560px){
+  .container-text .btn-download-cv{
+    margin: 50px 100px;
+  }
+
+}
+
+
+@media(max-width:450px){
+  .container-text .btn-download-cv{
+    margin: 50px 60px;
+  }
+
+}
+
+

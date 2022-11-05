@@ -107,4 +107,54 @@ a{
   width: 40%;
 }
 
+/* Suspense */
+.suspense{
+  font-size: 35px;
+  font-family: var(--tipografiaT);
+  font-weight: 900;
+  color: var(--color5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* Querys */
+@media(max-width:1300px){
+  .container-page{
+    padding: 0 50px !important;
+  }
+}
+
+@media(max-width:1090px){
+  .container-text{
+    width:100%;
+    text-align: center;
+  }
+  .title{
+    display: inline-block;
+    font-size: 65px;
+    font-family: var(--tipografiaSB);
+    color: var(--color5);
+  }
+  .container-page{
+    padding: 0 100px !important;
+  }
+}
+
+@media(max-width:860px){
+  .container-text p{
+    font-size: 16px !important;
+  }
+
+  .container-page{
+    padding: 0 30px !important;
+  }
+
+}
+
+@media(max-width:380px){
+  .title{
+    font-size: 55px;
+  }
+
+}

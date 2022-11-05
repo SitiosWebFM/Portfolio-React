@@ -1,0 +1,35 @@
+.scroll-up-btn{
+  position: fixed; 
+  height: 45px;
+  width: 42px;
+  background: var(--color5);
+  right: 20px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 10000;
+  font-size: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: bottom 0.3s ease, opacity 0.3s ease;
+}
+
+.scroll-up-btn.showbtn{
+  opacity: 0.8;
+  pointer-events: auto;
+  bottom: 30px;
+}
+
+
+@media(max-width:860px){
+  .scroll-up-btn{
+    height: 40px;
+    width: 37px;
+    right: 10px;
+    line-height: 40px;
+    font-size: 25px;
+  } 
+}

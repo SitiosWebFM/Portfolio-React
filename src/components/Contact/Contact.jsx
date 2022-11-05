@@ -79,7 +79,7 @@ function Contact() {
           <span className='title animate__animated' onMouseOver={animationClass}>M</span>
           <span className='title animate__animated' onMouseOver={animationClass}>e</span>
       </h2>
-      <div className='container-page max-width'>
+      <div className='container-page max-width container-contact'>
 
         <div className='info-personal'>
           <div className='container-info'>
@@ -110,7 +110,7 @@ function Contact() {
               </div>
             </Form.Group>
 
-            <Form.Group as={Col} md="6" controlId="validationCustom02">
+            <Form.Group as={Col} md="6" controlId="validationCustom02" className='margin-top-input'>
               <div className='form-group'>
                 <input className='form-input' type="text" placeholder=' ' name='user_email' required/>
                 <label className='form-label'>Email</label>

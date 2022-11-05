@@ -9,9 +9,12 @@ const Skills = () => {
   const {animationClass} = useContext(Animate)
 
   useEffect(() =>{
+    const sectionSkills = document.getElementById('skills')
+    const sectionTop = sectionSkills.offsetTop - 450;
+
 
     const addStyles = () =>{
-      if(window.scrollY >= 2300 && window.scrollY <= 4010){
+      if(window.scrollY >= sectionTop){
         setStylesProgress(true)
       }else{
         setStylesProgress(false)

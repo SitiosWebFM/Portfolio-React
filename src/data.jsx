@@ -4,7 +4,8 @@ export const dataProjects= [
     name:"hypecity",
     img:"img/dispositivos-hypecity.png",
     logo:"img/logo-hypecity.jpeg",
-    gif:"img/gif-ecommerce.gif"
+    gif:"img/gif-ecommerce.gif",
+    link:"https://ecommercehypecity.netlify.app/"
   },
   {
     id:1,
@@ -17,8 +18,8 @@ export const dataProjects= [
       "img/screen-bybian/ilustracionesbybian.netlify.app_pag_servicios.html.png",
       "img/screen-bybian/ilustracionesbybian.netlify.app_pag_galeria.html.png",
       "img/screen-bybian/ilustracionesbybian.netlify.app_pag_contacto.html.png"
-    ]
-    
+    ],
+    link:"https://ilustracionesbybian.netlify.app/"
   },
   {
     id:2,
@@ -29,7 +30,8 @@ export const dataProjects= [
       "img/screen-bybian/www.transportesauri.com.png",
       "img/screen-bybian/www.transportesauri.com_nosotros.html.png",
   
-    ]
+    ],
+    link:"https://www.transportesauri.com/"
   },
   {
     id:3,
@@ -38,7 +40,8 @@ export const dataProjects= [
     logo:"https://sitioswebfm.netlify.app/img/logofm.png",
     sections:[
       "img/screen-bybian/sitioswebfm.netlify.app_.png"
-    ]
+    ],
+    link:"https://sitioswebfm.netlify.app/"
   },
   {
     id:4,
@@ -46,7 +49,8 @@ export const dataProjects= [
     name:"apihorario",
     img:"img/dispositivos-horario.png",
     logo:"img/logo-horario.png",
-    gif:"img/gif-horario.gif"
+    gif:"img/gif-horario.gif",
+    link:"https://fmhorarioglobal.netlify.app/"
   },
   {
     id:5,
@@ -54,7 +58,8 @@ export const dataProjects= [
     name:"apiclima",
     img:"img/dispositivos-clima.png",
     logo:"img/logo-clima.png",
-    gif:"img/gif-clima.gif"
+    gif:"img/gif-clima.gif",
+    link:"https://fmclima.netlify.app/"
   }
  
 ]

@@ -1,0 +1,53 @@
+.footer{
+  background-color: var(--color1);
+  padding: 20px 0 !important;
+  text-align: center;
+}
+
+.container-footer{
+  margin: 10px 0;
+}
+
+.container-footer h4{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--tipografiaS);
+  color: #fff;
+  margin-bottom: 30px;
+} 
+
+.container-footer i{
+  color: var(--color5);
+}
+
+.container-footer .icon{
+  font-size: 40px;
+  background-color: transparent;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.container-footer .icon:hover{
+  background-color: #fff;
+}
+
+/* Querys */
+@media(max-width:650px){
+
+  .container-footer{
+    margin:0;
+  }
+  
+  .container-footer h4{
+    font-size: 16px;
+    margin-bottom: 20px;
+  } 
+
+  
+  .container-footer .icon{
+    font-size: 30px;
+  }
+  
+  
+}

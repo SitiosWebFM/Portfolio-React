@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, Suspense, lazy} from 'react'
 import { useEffect } from 'react'
 /* Styles */
 import './Modal.css'
+/* Components */
+const ImgModal = lazy(() => import ('./ImgModal.jsx'))
+const GifModal = lazy(() => import('./GifModal'))
 
 const ModalBody = ({data}) => {
   const [indexValue, setIndexValue] = useState(0)
@@ -41,7 +44,9 @@ const ModalBody = ({data}) => {
       <div className='container-descripcion'>
         <h2 className='title-modal'>Descripción</h2>
         <div className='descripcion'>
-          <img src={data.img} alt={`Mockup-dispositivos-${data.name}`} />
+          <Suspense fallback={<h3 className='suspense'>Loading...</h3>}>
+            <ImgModal data={data}/>
+          </Suspense>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cupiditate non id repellat, doloribus accusamus temporibus maxime eos vel totam! Dolore sequi quaerat officia deleniti numquam debitis labore dolorem quia.</p>
         </div>
       </div>
@@ -60,11 +65,12 @@ const ModalBody = ({data}) => {
         :
         <div className='container-funcionamiento'>
           <h2 className='title-modal'>Funcionamiento</h2>
-          <img className='gif-ecommerce' src={data.gif} alt={`funcionamiento-${data.name}`} />
+          <Suspense fallback={<h3 className='suspense'>Loading...</h3>}>
+            <GifModal data={data}/>
+          </Suspense>
         </div>
     
-      }
-    
+      } 
     </>
   )
 }
