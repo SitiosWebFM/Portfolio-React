@@ -42,21 +42,16 @@ h5{
 }
 
 .background-react{
-  width: 65%;
+  width: 70%;
   background-color: #3ed5f0;
 }
 
-.background-js{
-  width: 80%;
+.background-back{
+  width: 60%;
   background-color: #ead41c;
 }
 
-.background-css{
-  width: 90%;
-  background-color: #2071f2;
-}
-
-.background-html{
+.background-front{
   width: 95%;
   background-color: #DF5823;
 }

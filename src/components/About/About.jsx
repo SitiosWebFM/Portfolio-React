@@ -25,7 +25,7 @@ const Skills = () => {
       <div className='container-page max-width'>
         <div className='container-text'>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum vero temporibus repellat esse! Consequuntur, exercitationem placeat vero ad nulla quos neque vitae maxime error labore aspernatur necessitatibus dolores. Tenetur, sit!
+            Soy un joven de 18 años, que se supera día a día, aprendiendo constantemente nuevas tecnologías. Teniendo como objetivo poder vivir de lo que más me gusta que es la programación. Actualmente estudio en CoderHouse para la "Carrera de Desarrollo Full Stack" y complemento también de forma autodidacta.
           </p>
           <a className='btn-download-cv' href={cv} download={cv}>Download CV<i className="fa-solid fa-file-arrow-down"></i></a>
         </div>

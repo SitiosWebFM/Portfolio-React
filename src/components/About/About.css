@@ -59,50 +59,20 @@
   .container-tagcanvas{
     width: 60%;
   }
-
-  .container-text .btn-download-cv{
-    width: auto;
-    margin: 50px 250px;
-  }
 }
 
 
 @media(max-width:860px){
-  .container-text .btn-download-cv{
-    margin: 50px 200px;
-  }
-
   .container-tagcanvas{
     width: 80%;
   }
-
 }
 
 
 @media(max-width:660px){
-  .container-text .btn-download-cv{
-    margin: 50px 150px;
-  }
-
   .container-tagcanvas{
     width: 100%;
   }
-}
-
-
-@media(max-width:560px){
-  .container-text .btn-download-cv{
-    margin: 50px 100px;
-  }
-
-}
-
-
-@media(max-width:450px){
-  .container-text .btn-download-cv{
-    margin: 50px 60px;
-  }
-
 }
 
 

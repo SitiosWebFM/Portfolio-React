@@ -56,27 +56,26 @@ const Skills = () => {
         <div className='container-text'>
           <div className='container-p-skills'>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum vero temporibus repellat esse! Consequuntur, exercitationem placeat vero ad nulla quos neque vitae maxime error labore aspernatur necessitatibus dolores. Tenetur, sit!
+              Comencé como desarrollador web hace aproximadamente un año, estudiando de forma autodidacta con cursos en Youtube como los de Dalto, que me ayudaron mucho.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum vero temporibus repellat esse! Consequuntur, exercitationem placeat vero ad nulla quos neque vitae maxime error labore aspernatur necessitatibus dolores. Tenetur, sit!
+              Luego decidí inscribirme en CoderHouse para la "Carrera de Desarrollo Full Stack", en la cual actualmente sigo estudiando, esforzándome y actualizándome para obtener ese TOP-10!
+            </p>
+            <p>
+              He trabajado para particulares como Freelancer, aportando trabajos a mi portafolio y así mismo más experiencia.
             </p>
           </div>
         </div>
         <div className='container-data'>
-          <h5>HTML</h5>
+          <h5>Front-end</h5>
           <div className="progress-data">
-            <div className={stylesProgress ? 'progress-in background-html' : 'progress-in'}></div>
+            <div className={stylesProgress ? 'progress-in background-front' : 'progress-in'}></div>
           </div>
-          <h5>CSS</h5>
+          <h5>Back-end</h5>
           <div className="progress-data">
-            <div className={stylesProgress ? 'progress-in background-css' : 'progress-in'}></div>
+            <div className={stylesProgress ? 'progress-in background-back' : 'progress-in'}></div>
           </div>
-          <h5>JS</h5>
-          <div className="progress-data">
-            <div className={stylesProgress ? 'progress-in background-js' : 'progress-in'}></div>
-          </div>
-          <h5>REACT</h5>
+          <h5>React</h5>
           <div className="progress-data">
             <div className={stylesProgress ? 'progress-in background-react' : 'progress-in'}></div>
           </div>

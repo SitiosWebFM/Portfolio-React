@@ -51,7 +51,7 @@ const Home = () => {
           <span className='title-home animate__animated' onMouseOver={animationClass} data-aos="fade-left" data-aos-duration="3000" data-aos-once="true">b</span>
         </h2>
           <div className='container-p'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolore commodi consequatur libero, tenetur quas provident repellendus blanditiis amet suscipit veritatis cum cupiditate? Odit mollitia, recusandae numquam corporis animi harum.</p>
+            <p>Conocimientos en diseño y desarrollo web, produciendo un trabajo de calidad.</p>
           </div>
         </div>
         <div className='home-img'>

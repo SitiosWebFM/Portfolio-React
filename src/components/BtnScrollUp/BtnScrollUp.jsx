@@ -5,14 +5,15 @@ import './BtnScrollUp.css'
 
 const BtnScrollUp = () => {
 
-  const [scrolled, setScrolled] = useState('')
+  const [scrolled, setScrolled] = useState(false)
 
   useEffect(() =>{
+
     const onScroll = () =>{
-      if(window.scrollY > 100){
-        setScrolled('showbtn')
+      if(window.scrollY > 100 && document.querySelector('.menu-offcanvas').attributes[1].value !== "visibility: visible; left: 0%;"){
+        setScrolled(true)
       }else{
-        setScrolled('')
+        setScrolled(false)
       }
     }
 

@@ -47,7 +47,7 @@ const ModalBody = ({data}) => {
           <Suspense fallback={<h3 className='suspense'>Loading...</h3>}>
             <ImgModal data={data}/>
           </Suspense>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cupiditate non id repellat, doloribus accusamus temporibus maxime eos vel totam! Dolore sequi quaerat officia deleniti numquam debitis labore dolorem quia.</p>
+          <p>{data.description}</p>
         </div>
       </div>
       {

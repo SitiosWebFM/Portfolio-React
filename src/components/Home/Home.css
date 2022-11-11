@@ -118,7 +118,7 @@
   }
 
   .home-text p{
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .home-text .container-p{
@@ -130,11 +130,27 @@
 
 
 
-@media(max-width:790px){
-
-  .home-text p{
-    font-size: 16px;
+@media(max-width:600px){
+  .home-img .perfil{
+    width: 200px;
+  }
+  .home-img::before,
+  .home-img::after{
+    width: 35px;
+    height: 35px;
+  }
+  
+  .home-text{
+    margin: 100px 15px;
   }
 
+  .home-text .title-home{
+    font-size:35px;
+  }
+
+  .home-text .container-p{
+    width: 100%;
+    margin: 20px 0;
+  }
 }
 

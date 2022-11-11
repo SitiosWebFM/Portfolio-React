@@ -141,6 +141,7 @@
   }
   .descripcion p{
     width: 100%;
+
     font-size: 18px;
     margin: 40px 0 0 0;
   }
@@ -180,5 +181,18 @@
     overflow: scroll;
   }
   
+}
+
+
+@media(max-width:550px){
+
+  .descripcion p{
+    font-size: 14px;
+    margin: 40px 0 0 0;
+  }
+
+  .container-img-secciones img{
+    border: 10px solid #4a4a4a;
+  }
   
 }

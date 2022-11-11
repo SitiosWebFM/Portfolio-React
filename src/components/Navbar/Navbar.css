@@ -213,7 +213,9 @@
   }
 
   .menu-offcanvas{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -242,7 +244,7 @@
   }
 
   .nav-list a{
-    font-size: 60px;
+    font-size: 35px;
     font-family: var(--tipografiaT);
     font-weight: 00;
     color:#fff;
