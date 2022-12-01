@@ -1,4 +1,8 @@
 /* Modal */
+.modal{
+  padding: 0 !important;
+}
+
 .modal-fullscreen{
   display: flex;
   justify-content: center;
